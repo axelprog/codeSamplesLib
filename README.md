@@ -1,3 +1,3 @@
 # codeSamplesLib
 
-is library of usefull code
+is library of usefull own code
