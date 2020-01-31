@@ -6,5 +6,5 @@ It is library of usefull own code
 
 [Binary user roles checking middleware](./userRoles.js "binary user roles checking")
 
-
 [Helper utils class](./helperUtils.js "Helper utils")
+- **formattableString** - tagged string as formattable 
