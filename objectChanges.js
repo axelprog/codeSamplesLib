@@ -6,7 +6,7 @@ function isNullBlankOrUndefined(o) {
   return (typeof o === 'undefined' || o == null || o === '');
 }
 
-export default function (object, base, ignoreBlanks = false) {
+export const objectChanges = function (object, base, ignoreBlanks = false) {
   if (!isObject(object) || isDate(object)) return object;
 
   return transform(object, (result, value, key) => {
