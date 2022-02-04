@@ -10,3 +10,5 @@ It is library of usefull own code
 - **formattableString** - tagged string as formattable 
 
 [Object comparator](./objectChanges.js "Show object changes") - compare objects and return difference (use lodash)
+
+[Mongo DB copier](./dbMigrationScript.js "Mongo migration script") - script for copy mongo DB from one server to other by URL
