@@ -9,7 +9,7 @@ const backupPostfix = '_backup';
 async function main() {
     initDotEnv();
 
-    const sourceUrl = process.env.APP_DB_TARGET || scriptParams.APP_DB_TARGET;
+    const sourceUrl = process.env.APP_DB_COPY_SOURCE || scriptParams.APP_DB_COPY_SOURCE;
     const targetUrl = process.env.APP_DB_HOST || scriptParams.APP_DB_HOST;
     let targetDbConnection, sourceDbConnection;
 
