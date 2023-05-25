@@ -13,4 +13,4 @@ It is library of usefull own code
 
 [Mongo DB copier](./dbMigrationScript.js "Mongo migration script") - script for copy mongo DB from one server to other by URL
 
-[UseEffectDebugger](./useEffectDebugger.ts "Debuger for useEffect calls) - useful scripd for debug react UseEffect calls (the idea is not mine)
+[UseEffectDebugger](./useEffectDebugger.ts "Debuger for useEffect calls") - useful scripd for debug react UseEffect calls (the idea is not mine)
