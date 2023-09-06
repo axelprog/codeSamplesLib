@@ -7,7 +7,8 @@ It is library of usefull own code
 [Binary user roles checking middleware](./userRoles.js "binary user roles checking")
 
 [Helper utils class](./helperUtils.js "Helper utils")
-- **formattableString** - tagged string as formattable 
+- **formattableString** - tagged string as formattable
+- **cancelablePromise** - cancelable Promise
 
 [Object comparator](./objectChanges.js "Show object changes") - compare objects and return difference (use lodash)
 
