@@ -26,6 +26,33 @@ console.log(taggedString.format("world", "work")); // will write in console: 'te
             },
         };
     }
+
+/*
+Make promise cancalable with call reject
+
+Code Sample
+
+const cancalabale = HelperUtils.cancelablePromise(new Promise(<some long process>)) //create cancalable promise
+.then(() => console.log("resolve"), (e) => console.log("reject", e)); 
+...
+cancalabale.cancel();
+
+*/
+
+    static cancelablePromise = function(promise) {
+      let rejector;
+    
+      const extended = new Promise((resolve, reject) => {
+        rejector = reject;
+        promise.then(() => resolve());
+      });
+    
+      extended.cancel = () => {
+        rejector("cancel");
+      };
+    
+      return extended;
+    }
 }
 
 export {
