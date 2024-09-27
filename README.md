@@ -16,4 +16,6 @@ It is library of usefull own code
 
 [UseEffectDebugger](./useEffectDebugger.ts "Debuger for useEffect calls") - useful script for debug react UseEffect calls (the idea is not mine)
 
-[LongListSelector](./LongListSelector.ts "Debuger for useEffect calls") - React selector component with virtual pagination. It allows render long lists without performance issues
+[LongListSelector](./LongListSelector.ts "Selector with long item menu") - React selector component with virtual pagination. It allows render long lists without performance issues
+
+[DynamicmoduleLoader](./dynamicmoduleLoader.ts "Dymanic file importre") - Node.js dynamic module importer
