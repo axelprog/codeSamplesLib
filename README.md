@@ -18,4 +18,6 @@ It is library of usefull own code
 
 [LongListSelector](./LongListSelector.ts "Selector with long item menu") - React selector component with virtual pagination. It allows render long lists without performance issues
 
-[DynamicmoduleLoader](./dynamicmoduleLoader.ts "Dymanic file importre") - Node.js dynamic module importer
+[DynamicmoduleLoader](./dynamicmoduleLoader.ts "Dymanic file importer") - Node.js dynamic module importer
+
+[AutoCleanMap](./AutoCleanMap.ts "Cleanable map") - Class that implements Map with auto remove items wether tye are not use
